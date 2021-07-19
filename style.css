@@ -1,0 +1,214 @@
+*{
+    background-color:#0B0014;
+    background-image:"\portfo\reshot-illustration-website-development-UGFS3EDH8L";
+  
+}
+
+/*#001d3d #ffd60a*/
+.nav
+{
+    display:flex;
+    justify-content: center;
+    
+}
+
+a:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.sep
+{
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #00b4d8;
+}
+img
+{
+   margin-top: 100px;
+    margin-left: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    height: 350px;
+    padding: 50px;
+    padding-left: 50px;
+    border-style:none;
+    border: #660708 solid;
+    box-shadow: 2px 2px 5px #003566;
+}
+
+h3{
+   text-shadow: 2px 2px #390099;
+    font-size: 30px;
+    color:  #660708;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -450px;
+    margin-left: 250px;
+    padding: 20px;
+    letter-spacing: 10px;
+}
+
+        
+
+@media screen and (max-width: 500px){
+
+    img
+    {
+        
+        width: 75%;
+    }
+    
+}
+@media screen and (max-width: 450px){
+
+    img
+    {
+        
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width: 450px){
+
+    .sep
+    {
+        display: block;
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width: 350px){
+
+    .nav
+    {
+        float: none;
+        width: 5%;
+    }
+    
+}
+.link-1
+{
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+    float: right;
+    color: bisque;
+    margin-right: 40px;
+    margin-top: 5px;
+    
+
+
+}
+
+   
+.link-1:hover
+{
+    color: #00b4d8;
+    
+}
+.homeicon
+{
+    float: left;
+    font-size: 25px;
+    color:bisque;
+    padding-top: 10px;
+    text-decoration:wavy;
+    font-family:'Montserrat', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: none;
+    transition: 0.5s;
+    
+}
+.homeicon:hover, .homeicon:active{
+    text-shadow:none;
+    font-size: 35px;
+    color: #00b4d8;
+    display: inline-block;   
+    text-decoration: none; 
+    border-radius: 0px;
+    transition: 0.5s;
+    
+}
+.intro
+{
+   display: block;
+   margin-top: -25px;
+   margin-left: 590px;
+   border: #660708 solid;
+   border-radius: 5%;
+    color: aliceblue;
+    padding: 25px;
+    font-size: 1.12rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    width: 40%;
+    line-height: 2 rem;
+
+    
+    
+}
+/*.button-1
+{
+    color:#003566;
+    display: block;
+    padding: 12px 20px;
+    background-color:  #00F2F2;
+    border-color: #0B0014;
+    margin-left: 590px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.18rem;
+
+}
+.button-1:hover
+{
+    color: beige;
+}
+*/
+h5{
+    letter-spacing: 5px;
+     margin-top: -25px; ;
+    font-size: 2rem;
+    color:#390099;
+    text-shadow:2px 2px #660708;
+  text-align: center;
+    display: block;
+    margin-left: 250px;
+    
+}
+.resume
+{
+    text-decoration: none;
+    background-color: #390099;
+    color: antiquewhite;
+    box-shadow: #00b4d8;
+    text-shadow: none;
+    padding: 12px 20px;
+    margin-left: 590px;
+    border-radius: 10px;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family:monospace;
+    height: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: #00b4d8 ;
+    
+}
+
+.resume:hover
+{
+    color: #ff0054;
+    background-color: #390099;
+    transition: 0.1s;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
